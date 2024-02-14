@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Flamenco:wght@300;400&family=Honk&display=swap');
+
+body{
+    font-family: Dancing Script;
+    background-image: url(mystic-magic-background-religion-vector-34085434dddd.jpg);
+}
+
+
+#fortune{
+    color: aliceblue;
+}
+#spread{
+    font-size: large;
+}
+.backtoblack{
+    margin-left: 45%;
+    margin-top: 70%;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+}
+.card{
+    margin: auto;
+}
+tarot-deck{
+    /* margin: auto; */
+    margin-left: 100px;
+    margin-right: auto;
+    display: block;
+    height: 100px;
+}
+button{
+    background: transparent;
+    border-radius: 10px;
+    border-color: rgb(85, 85, 85);
+    border-style: solid;
+}
+.container {
+    text-align: center;
+    display: table;
+    padding:5px;font-size:20px;background-color:rgb(51, 51, 51);color:#ffffff; 
+    border-radius: 20px;
+}
+p{
+    text-align: center;
+}
+tarot-deck-card{
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-image: url(https://gfx.tarot.com/images/site/tarot/celtic-cross-sample/card-back.svg);
+    cursor: pointer;
+    display: inline-block;
+    margin-left: -7.5%;
+    height: 1000%;
+    transform: translateZ(0);
+    transition: all 125ms;
+    width: 8.45%;
+}
+tarot-deck-card:hover{
+    transform: translateY(-5%);
+}
+.backtoblack:visited{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
