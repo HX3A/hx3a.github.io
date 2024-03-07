@@ -24,12 +24,14 @@ body{
 }
 tarot-deck{
     /* margin: auto; */
-    margin-left: 100px;
+    margin-left: 120px;
     margin-right: auto;
     display: block;
     height: 100px;
+    padding-top: 8px;
 }
 button{
+    color: honeydew;
     background: transparent;
     border-radius: 10px;
     border-color: rgb(85, 85, 85);
@@ -45,16 +47,16 @@ p{
     text-align: center;
 }
 tarot-deck-card{
-    background-position: 50% 0;
+
     background-repeat: no-repeat;
     background-image: url(https://gfx.tarot.com/images/site/tarot/celtic-cross-sample/card-back.svg);
     cursor: pointer;
     display: inline-block;
     margin-left: -7.5%;
-    height: 1000%;
+    height: 100%;
     transform: translateZ(0);
     transition: all 125ms;
-    width: 8.45%;
+    width: 8.25%;
 }
 tarot-deck-card:hover{
     transform: translateY(-5%);
@@ -62,4 +64,41 @@ tarot-deck-card:hover{
 .backtoblack:visited{
     color: rgb(255, 255, 255);
     text-decoration: none;
+}
+spread-answer{
+    align-content: flex-start;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    line-height: 14px;
+    margin: 0 auto;
+}
+spread-card{
+    color: #ffffff;
+    display: flex;
+    font-size: 11px;
+    font-weight: 200;
+    height: 20px;
+    justify-content: center;
+    line-height: 1.5;
+    margin: 0, auto;
+    text-transform: uppercase;
+}
+spread-partial spread-card h3 {
+    align-items: flex-end;
+}
+
+spread-partial spread-card h3, spread-partial spread-card p {
+    display: flex;
+    font-size: 11.2px;
+    font-weight: 400;
+    height: 28px;
+    justify-content: center;
+    line-height: 1.4;
+    margin: 0 auto;
+    opacity: .9;
+    text-align: center;
+    text-transform: uppercase;
 }
